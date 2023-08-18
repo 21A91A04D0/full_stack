@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>var, let and const</title>
+</head>
+<body>
+	<h1>var, let and const</h1>
+	<script>
+	var a = 10;
+	document.write(a+"<br>");
+
+
+	let b = 20;
+	document.write(b);
+	document.write(typeof(b)+"<br>");
+
+	// let b = 30; //wrong -> redeclarion is not possible
+	b = 30;// reinitialisation is possible
+	document.write(b);
+
+
+	{//block level
+		let d = 50;
+		document.write(d);
+	}
+
+
+	const pi = 3.14;
+	document.write(pi)
+	// pi = 3;--> we cannot reinitialise or canont redeclare the const variable
+	// document.write(pi);
+
+
+	// let and const are the block level variables.
+	// var is the global variable.
+</script>
+</body>
+</html>

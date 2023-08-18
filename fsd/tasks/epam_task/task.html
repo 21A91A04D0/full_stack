@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task</title>
+</head>
+<body>
+	<center><img src="epam.png" width = "80px" height="80px"></center>
+	<h1>HTML Elements</h1><hr>
+	<nav>
+		<ul >
+			<li class="list1"><a href="#Home">Home</a></li>
+			<li class="list1"><a href="#Headers">Headers</a></li>
+			<li class="list1"><a href="#Tables">Tables</a></li>
+			<li class="list1"><a href="#List">Lists</a></li>
+			<li class="list1"><a href="#TextFormat">TextFormats</a></li>
+			<li class="list1"><a href="#BlockQuotes">BlockQuotes</a></li>
+		</ul>
+		</nav>
+		<hr>
+	<p>Pay attention to hi tag inside section element. Font-size for hi is the same as font-size for h2, because we have to use only one hi on the page, and it is commonly used inside header</p><br>
+	<h2 style="font-family: sans-serif;">Header2</h2>
+	<h3 style="font-family: sans-serif;">Header3</h3>
+	<h4 style="font-family: sans-serif;">Header4</h4>
+	<h5 style="font-family: sans-serif;">Header5</h5>
+	<h6 style="font-family: sans-serif;">Header6</h6>
+	<hr>
+	<p>Lorem ipsum dolor sit <a href="#">amet</a>, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation <b>ullamco</b> laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in <small>voluptate</small> velit esse
+	cillum dolore eu fugiat nulla pariatur. <emp><b>Excepteur sint occaecat</b></emp> cupidatat non
+	proident, sunt in culpa qui <u>officia deserunt</u> mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut <del>labore</del> et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco <mark>laboris</mark> nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in <big>voluptate</big> velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr>
+	<h1>Table</h1>
+	<table width="100%" >
+		<tr>
+			<th style="color: grey;">Header</th>
+			<th style="color: grey;">Header</th>
+			<th style="color: grey;">Header</th>
+		</tr>
+		<tr>
+			<td>Lviv</td>
+			<td>kyiv</td>
+			<td>Kharkiv</td>
+		</tr>
+		<tr>
+			<td>Lviv</td>
+			<td>kyiv</td>
+			<td>Kharkiv</td>
+		</tr>
+		<tr>
+			<td>Lviv</td>
+			<td>kyiv</td>
+			<td>Kharkiv</td>
+		</tr>
+	</table>
+	<br>
+	<h1>unordered list</h1>
+	<ul>
+		<li style="list-style-type: square;">List item1</li>
+		<li style="list-style-type: square;">List item1</li>
+		<li style="list-style-type: square; margin-left: 12px;">some nested list item 3</li>
+		<li style="list-style-type: square;">List item3</li>
+	</ul>
+	<h1>ordered list</h1>
+	<ol>
+		<li>List item1</li>
+		<li>List item2</li>
+		<ol>
+			<li style="list-style-type:upper-alpha;">some nested list item1</li>
+		</ol>
+		<li>List item3</li>
+	</ol>
+	<h1>definition list</h1>
+	<h3>define terms1</h3>
+	<p>description1</p>
+	<h3>define terms2</h3>
+	<p>description1</p>
+	details
+	<select>
+		<option>HTML</option>
+		<option>HTML</option>
+		<option>HTML</option>
+	</select>
+	<h2>Text Formats</h2>
+	<h3>Article Text</h3>
+	<h4 style="margin-left: 4px;">Article title</h4>
+	<p style="margin-left: 6px;">description</p>
+	<h2>Preformatted Text</h2>
+	<div style="width:100%;height: 150px; background-color: ghostwhite;">
+		<pre>
+
+
+			          Text
+			in a pre element
+			   is displayed in a fixed-width
+		font, and it preserves
+		both
+		   spaces and 
+		        line breaks
+		</pre>
+
+	</div>
+	<h2>code</h2>
+	<div style="width:100%;height: 150px; background-color: ghostwhite;">
+		<pre>
+
+
+
+			.wrapper {
+			display: flex;
+			vertical-align: middle;
+			justify-content: center;
+			}
+		</pre>
+	</div>
+	<h2>Blockquotes</h2>
+	<p>Let's keep it simple.italics are good to helpset if from the body text.be sure to style the citations.</p>
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</blockquote>
+	<hr>
+	<form>
+		<input style="float: right;" type="text" name="">
+		<label style="float: right;">First name: </label>
+		
+		<br><br>
+		<input style="float: right;" type="text" name="">
+		<label style="float: right;">Surname: </label>
+		<br><br>
+		<input style="float: right;" type="Email" name="">
+		<label style="float: right;">Email: </label>
+		<br><br>
+		<div style="width:100%;height:200px;background-color: white;">
+			<textarea style="height: 200px; float: right;"></textarea>
+		</div><br>
+		<input style="width: 170px;float: right;" type="submit" name="">
+		</form>
+		<br>
+		<hr>
+		<div style="width:100%;height:170px;background-color:grey">
+			<div style="width:100%;height: 15px;"></div>
+			<p style="text-align: center; ">Copyright Epam Systems</p>
+		</div>
+
+</body>
+</html>

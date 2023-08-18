@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Styling in css	
+	</title>
+	<link rel="stylesheet" type="text/css" href="external_styling.css">
+	<style type="text/css">
+/*		to apply any type of internal or external styling we will use method selectors*/
+/*		different types of selectors*/
+/*			-by using class name*/
+/*			-by using id name*/
+/*			-by using element name*/
+/*			- universal selector*/
+/*			- attribute selector*/
+/*			-pseudo selector*/
+/*		-> for class selector we will use .classname{} 
+		.abc{
+			font-size: 50px;
+			font-family: cursive;
+			margin: 0px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<h3>Inline styling</h3>
+	<p>CSS is the language we use to style an HTML document.<br><br>
+	   CSS describes how HTML elements should be displayed.</p>
+	<p style="color: red;background-color: orange;">This is a inline styling in css</p>
+	<!-- color -> used only for the text content -->
+	<!-- background-color -> used for the background-color -->
+	<!-- inline styling is nothing but where we apply any of the style inside of the html tag is known as inline styling -->
+
+
+
+	<h3>Internal styling</h3>
+	<p class="abc"> This is a Internal styling in css</p>
+	<!-- this is the styling applied inside of the head tag -->
+
+
+
+	<h3>External Styling</h3>
+	<p class = "External">This is the External styling</p>
+	<!-- This is the styling used to write the css properties externally we will not use the properties inside of the html file it will be connected externally -->
+	<!-- to apply external css files into html page we have to link thos two files by using link tag insid eof the head tag -->
+	<!-- main purpose of external styling is to use for the same styling for the multiple tags (avoid to write multiple times of same stying to the html tag)-->
+	<!-- if we apply all the inline internal and external all styligs first it will execute the inline orelse among inline and external first it will execute the internal and then external -->
+	
+
+	<h3>Id Selector</h3>
+	<p id="abc">This is the id selector</p>
+	<!-- here we used the external css file to implement the styling for the id name -->
+
+
+	<h3>Element Selector</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<!-- element selector will apply style directly to html tag without using any class we can directly use the element -->
+
+
+	<div></div><br>
+	<div></div>
+
+
+
+	<h3>Universal Selector</h3>
+	<!-- applies to the entire body elements -->
+	<!-- by using * symbol -->
+
+
+	<h3>Attribute Selector</h3>
+	<!-- what are attributes mentioned inside of the html tag by using those atributes we can style the tag -->
+	<input type="text" name="">
+	<input type="number" name="">
+	<input type="password" name="">
+	<input type="email" name="">
+	<input type="date" name="">
+	<!-- <a href="">click here</a> -->
+
+
+	<h3>Pseudo Selector</h3>
+	<!-- <a href="">Click Here</a>
+	<a href="">Click Here2</a>
+<a href="#">Click Here</a>
+<a href="#">Clickere</a>
+<a href="#">Cli </a><br> -->
+ <a href="https://www.geeksforgeeks.org">
+            Click on this link to see the effects.
+        </a>
+</body>
+</html>

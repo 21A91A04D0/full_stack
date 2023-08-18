@@ -1,0 +1,22 @@
+.u{
+	font-size: 80px;
+	float: left;
+	margin-top: 10px;
+	color: blue;
+/*	margin-left: 5px;*/
+}
+.m{
+	float: right;
+}
+.q{
+	margin-left:25%;
+}
+.q1{
+	float: right;
+}
+.m2{
+	float: right;
+}
+.p5{
+	color: gray;
+}

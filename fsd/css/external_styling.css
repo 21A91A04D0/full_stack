@@ -1,0 +1,45 @@
+.External{
+	border:1px solid red;
+	background-color: violet;
+}
+#abc{
+	font-size: 100px;
+	font-family:cursive;
+	margin:0;
+}
+p{
+	background-color: green;
+}
+div{
+	height: 100px;
+	width: 200px;
+	background-color: black;
+}
+/**{
+	background-color: violet;
+	font-family: sans-serif;
+	font-size: 40px;
+}*/
+input[type]{
+	background-color: cyan;
+	color: blue;
+}
+input[type="text"]{
+
+	color:red;
+}
+input[type="number"]{
+	color:violet;
+}
+/*a[href]{
+	background-color: yellow;
+}*/
+a:link{
+	color: orange !important;
+}
+a:visited{
+	color: violet;
+}
+a:unvisited{
+	color: seagreen;
+}

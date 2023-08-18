@@ -1,0 +1,48 @@
+div{
+	height: 300px;
+	width: 680px;
+	background-color: silver;
+}
+.a{
+	height: 250px;
+	width: 200px;
+	background-color: white;
+	float: left;
+	margin: 20px 10px 20px 25px;
+	border-radius: 20px;
+}
+.b{
+	height: 250px;
+	width: 200px;
+	background-color: white;
+	float: left;
+	margin: 20px 5px 20px 5px;
+	border-radius: 20px;
+}
+.c{
+	height: 250px;
+	width: 200px;
+	background-color: white;
+	float: right;
+	margin: 20px 25px 20px 5px; 
+	border-radius: 20px;
+}
+i{
+	font-size: 50px;
+	color: blue;
+	padding-top: 20px;
+}
+h1{
+	font-size: 20px;
+}
+p{
+	color: silver;
+	font-size: 15px;
+}
+button{
+	height: 30px;
+	width: 100px;
+	color: white;
+	background-color: blue;
+	border-radius: 20px;
+}

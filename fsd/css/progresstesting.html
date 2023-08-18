@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+      body {
+         text-align: center;
+      }
+      .l{
+         width: 500px;
+         height: 25px;
+         border-radius: 30px;
+      }
+      .l::-webkit-progress-bar {
+		border-radius: 30px;
+      }
+      .l::-webkit-progress-value {
+        background-color: pink;
+		border-bottom-left-radius: 30px;
+		border-top-left-radius: 30px;
+      }
+   </style>
+</head>
+<body>
+   <h2>Create progress bar Using HTML and CSS</h2>
+   <progress value="30" max="100" class="l"></progress>
+</body>
+</html>

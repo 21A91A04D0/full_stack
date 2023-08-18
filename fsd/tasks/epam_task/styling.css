@@ -1,0 +1,17 @@
+nav{
+/*	background-color: cyan;*/
+	width: 100%;
+	height: 65px;
+}
+.list1{
+	list-style: none;
+	float: left;
+	margin: 5px 10px;
+}
+table,
+th,
+td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}

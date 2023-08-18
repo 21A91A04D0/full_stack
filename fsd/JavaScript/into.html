@@ -1,0 +1,102 @@
+<!-- javascript variables can be declared in 4 ways:
+  ->Automatically
+  ->Using var
+  ->using let
+  ->using const
+
+ variables are containers for storing values. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>introduction</title>
+
+</head>
+<body>
+	<h1>JavaScript Introduction</h1>
+	<script>
+		var a;
+		a = 20;
+		document.write("hai </br>");
+		document.write("welcome to javascript"+a+"</br>");
+
+
+		var name = 'siva';
+		document.write(name.length+"</br>");
+
+		name += ' vardhan'
+		document.write(name.length+"</br>");
+		console.log(name);
+		// alert(name)
+
+
+		var name = "siva vardhan,pawankalyan"
+		document.write(typeof(a)+"<br/>");
+
+
+		var b;
+		b = 'sjs';
+		document.write(b + "</br>");
+
+
+		var bo;
+		bo = true;
+		document.write(typeof(bo)+"<br/>");
+
+		var array = [1,2,3,4,'siva',true];
+		document.write(typeof(array)+"</br>");
+		document.write(array+"</br>")
+
+
+		var arr = ['sindh','swapna','satya'];
+		document.write(arr[2]+"</br>");
+		const z = 10;
+		// z += 1
+		document.write(z+"</br>");
+		var arr1 = ['siva','vardhan','sriram','tekkam'];
+		document.write(arr1[1]+" "+arr1[2]+"</br>");
+		//object
+		var obj = [{
+			'name':'hari',
+			'rollno':1234,
+			'college':'aec',
+			'branch':'ece'
+		},
+		{
+			'name': 1,'rollno':2,'college':3,'branch':3
+		}];
+		// document.write(obj.name+" "+obj.rollno+" "+obj.college+" "+obj.branch)
+		console.log(obj[1]['name']);
+		console.log(obj[0].name);
+		var arr = [1,2,3,4,5];
+		for (var i = 0; i < arr.length; i++){
+			document.write(arr[i]+"<br/>");
+		}
+
+		var details = [{
+			'name':'siva',
+			'branch':'ece'
+		},
+		{
+			'name':'vardhan',
+			'branch':'ece'
+		},
+		{
+			'name':'sriram',
+			'branch':'ece'
+		},
+		{
+			'name':'raju',
+			'branch':'ece'
+		},
+		];
+		for (var i = 0; i < details.length;i++){
+			document.write(details[i].name+"<br/>");
+			console.log(details[i].name);
+		}
+	</script>
+</body>
+<!-- <script type="text/javascript" src="intro.js"></script> -->
+</html>
